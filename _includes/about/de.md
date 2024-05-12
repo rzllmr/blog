@@ -1,4 +1,4 @@
-Hi, I am Rob.
+Hi, ich bin Rob.
 
 I'm a professional software engineer with substantial experience in many languages, technologies and design principles. Most recently revolving around the Web world of TypeScript, Web Apps and Electron.
 
