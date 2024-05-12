@@ -1,0 +1,10 @@
+This is based on https://github.com/HynDuf/hynduf.github.io.
+
+The source files are mostly the same with the following modified exceptions:
+
+- in _includes/: ads.html, footer.html, head.html, intro-header.html, multilingual-sel.html, nav.html, search.html, sns-links.html
+- in _layouts/: default.html, keynote.html, page.html, post.html
+- in less/: hux-blog.less
+- _config.yaml, about.html, archive.html, index.html
+
+The content files including markdown and images are all new and original to this repository.

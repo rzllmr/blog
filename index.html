@@ -1,6 +1,7 @@
 ---
 layout: page
-description: "「离开世界之前 一切都是过程」"
+description: "「My place to publish everything fun that keeps me busy」"
+header-mask: 0.2
 ---
 
 {% for post in paginator.posts %}
@@ -14,16 +15,17 @@ description: "「离开世界之前 一切都是过程」"
             {{ post.subtitle }}
         </h3>
         {% endif %}
+        {% if post.pic %}
+        <img class="post-pic" src="{{ post.pic }}" />
+        {% endif %}
         <div class="post-content-preview">
-            {% if post.lang == 'en' %}
+            <div>
                 {{ post.content | strip_html | truncate:300 }}
-            {% else %}
-                {{ post.content | strip_html | truncate:200 }}
-            {% endif %}
+            </div>
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        {{ post.date | date: "%B %-d, %Y" }} - {{ post.tags | join: ', ' }}
     </p>
 </div>
 <hr>
