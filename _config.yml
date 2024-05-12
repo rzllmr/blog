@@ -5,10 +5,8 @@ header-img: img/bg-home.jpg
 email: robz@mailbox.org
 description: "My place to publish everything fun that keeps me busy."
 keyword: "Rob, Rob's Blog, rzllmr, Web, TypeScript, Game, Dev, Dev log"
-#url: "https://rzllmr.github.io" # your host, for absolute URL
-#baseurl: "/blog" # for example, '/blog' if your blog hosted on 'host/blog'
-url: "https://huangxuan.me"
-baseurl: ""
+url: "https://rzllmr.github.io" # your host, for absolute URL
+baseurl: "/blog" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
