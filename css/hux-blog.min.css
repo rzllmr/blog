@@ -1178,6 +1178,7 @@ samp {
   margin-top: 0;
   font-size: 50px;
   font-family: 'Kaushan Script';
+  display: none;
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
@@ -1198,6 +1199,7 @@ samp {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
+    display: block;
   }
 }
 .intro-header .post-heading h1 {
