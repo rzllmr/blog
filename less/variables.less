@@ -7,3 +7,29 @@
 @gray-light: lighten(black, 75%);
 
 @white-faded: fade(white, 80%);
+
+// Drop-shadows according to Material elevation levels at https://m3.material.io/styles/elevation/tokens
+
+@mc1: rgba(0, 0, 0, 0.2);
+@mc2: rgba(0, 0, 0, 0.14);
+@mc3: rgba(0, 0, 0, 0.12);
+
+.material-shadow (@level: 1) {
+  & when (@level = 1) { box-shadow: @mc1 0px 2px 1px -1px, @mc2 0px 1px 1px 0px, @mc3 0px 1px 3px 0px; }
+  & when (@level = 2) { box-shadow: @mc1 0px 3px 3px -2px, @mc2 0px 3px 4px 0px, @mc3 0px 1px 8px 0px; }
+  & when (@level = 3) { box-shadow: @mc1 0px 3px 5px -1px, @mc2 0px 6px 10px 0px, @mc3 0px 1px 18px 0px; }
+  & when (@level = 4) { box-shadow: @mc1 0px 5px 5px -3px, @mc2 0px 8px 10px 1px, @mc3 0px 3px 14px 2px; }
+  & when (@level = 5) { box-shadow: @mc1 0px 7px 8px -4px, @mc2 0px 12px 17px 2px, @mc3 0px 5px 22px 4px; }
+}
+
+.material-shadow-inset (@level: 1) {
+  & when (@level = 1) { box-shadow: inset @mc1 0px 2px 1px -1px, inset @mc2 0px 1px 1px 0px, inset @mc3 0px 1px 3px 0px; }
+  & when (@level = 2) { box-shadow: inset @mc1 0px 3px 3px -2px, inset @mc2 0px 3px 4px 0px, inset @mc3 0px 1px 8px 0px; }
+  & when (@level = 3) { box-shadow: inset @mc1 0px 3px 5px -1px, inset @mc2 0px 6px 10px 0px, inset @mc3 0px 1px 18px 0px; }
+  & when (@level = 4) { box-shadow: inset @mc1 0px 5px 5px -3px, inset @mc2 0px 8px 10px 1px, inset @mc3 0px 3px 14px 2px; }
+  & when (@level = 5) { box-shadow: inset @mc1 0px 7px 8px -4px, inset @mc2 0px 12px 17px 2px, inset  @mc3 0px 5px 22px 4px; }
+}
+
+.heavy-button-shadow () {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
