@@ -3,6 +3,7 @@ layout: post
 title: "What to expect here"
 subtitle: 'A pinned post to explain the site'
 header-style: text
+no-catalog: true
 tags:
   - Misc
 ---
