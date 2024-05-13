@@ -1020,11 +1020,17 @@ img::-moz-selection {
 /* Tags support End*/
 
 /* Hux make all img responsible in post-container */
+.post-container p:has(img:not(.emoji)) {
+  .material-shadow-inset(1);
+  border-radius: 6px;
+}
 .post-container img:not(.emoji) {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
+  position: relative;
+  z-index: -1;
 }
 img.emoji {
   vertical-align: text-top;
