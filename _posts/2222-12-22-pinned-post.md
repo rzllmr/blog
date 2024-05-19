@@ -5,7 +5,7 @@ subtitle: 'A pinned post to explain the site'
 header-style: text
 no-catalog: true
 tags:
-  - Misc
+  - Blog
 ---
 
 Hey there, I'm glad you're here! :tada:
