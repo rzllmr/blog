@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "Rob's Blog",
+  "short_name": "Rob's Blog",
+  "description": "Everything fun that keeps Rob busy.",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
@@ -13,7 +13,7 @@
   }],
   "background_color": "#fff",
   "theme_color": "#000",
-  "start_url": "/",
+  "start_url": "/blog",
   "display": "standalone",
   "orientation": "portrait"
 }
