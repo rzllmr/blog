@@ -3,6 +3,14 @@
 
 This is the source of everything you see on my [blog page](https://rzllmr.github.io/blog/). So for the technologically interested you find a description of the directory structure and processes set up here to style the blog and write new content for it. All with the central idea that posting new entries then requires nothing more than adding a markdown file to a folder.
 
+The technologies used to accomplish that are as follows:
+- **Ruby** with **bundler** to obtain the Jekyll gem
+  - **Jekyll** to generate html pages from templates and markdown
+    - using **Liquid** to write the templates
+- **Node.js** with **npm** to run Jekyll, Grunt and a local server
+  - **Grunt** to compile less to css and minify js files
+- **GitHub** to host the files and build and serve the website
+
 ## Getting Started
 
 1. [Fork](https://github.com/rzllmr/blog/fork) and clone this repository.
@@ -14,7 +22,7 @@ This is the source of everything you see on my [blog page](https://rzllmr.github
 
 ## File structure
 
-- **.github/workflows/jekyll.yml**: configuration of the GitHub action to generate website
+- **.github/workflows/jekyll.yml**: configuration of the GitHub action to generate the website
 - **_includes/**: template html files for parts of the page
 - **_layouts/**: template html files for the different general page layouts
 - **_posts/**: markdown files for each post
@@ -52,7 +60,7 @@ This is the source of everything you see on my [blog page](https://rzllmr.github
 ## License
 
 Blog content by me<br>
-Copyright (c) 2024-present Rob's Blog
+Copyright (c) 2024-present rzllmr
 
 Apache License 2.0<br>
 Copyright (c) 2015-present Huxpro
