@@ -3,10 +3,10 @@ layout: post
 title: "How I set up this blog"
 subtitle: 'And how you could do it, too'
 header-style: text
-no-catalog: true
 tags:
   - Blog
   - Web
+  - Coding
 ---
 
 Obviously the first thing I was busy with lately was setting up this blog. So, why not talk about how it came to be in the first post?
