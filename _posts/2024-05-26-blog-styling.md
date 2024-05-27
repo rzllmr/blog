@@ -40,7 +40,7 @@ You see the text alignment guaranteed by the monospaced font? Nice, isn't it? :g
 
 At least for someone reading a lot of it each day. But the other thing I wanted to show you here is the way I chose other elements in-between paragraphs to be framed. Subtle but distinct, looking like a portion of the page was cut out to let the insertion shine through. All done with a simple shadow effect and different background color for the code section. The same goes for images like the one below:
 
-![img](/img/bg-home.jpg)
+![img](/blog/img/bg-home.jpg)
 
 ## Quotes
 
