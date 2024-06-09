@@ -43,6 +43,6 @@ Take the one you like to look at. :wink:
 ---
 Header: Photo by [Leandro Mazzuquini](https://unsplash.com/@leanmazzuquini?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/acoustic-guitar-on-sofa-ZIbrlLp63PY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) under [Unsplash License](https://unsplash.com/license)<br>
 Guitar Sizes: Illustration by [Larry Jacobsen](https://www.flickr.com/photos/ljguitar/) on [flickr](https://www.flickr.com/photos/ljguitar/403865656/) under [CC BY 2.0 Deed](https://creativecommons.org/licenses/by/2.0/)<br>
-Guitar Woods: Photos by [Philipp Zinger]() on [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page) under [GNU FDL](https://en.wikipedia.org/wiki/en:GNU_Free_Documentation_License) and [CC BY-SA 4.0 Deed](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+Guitar Woods: Photos by [Philipp Zinger]() on [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) under [GNU FDL](https://en.wikipedia.org/wiki/en:GNU_Free_Documentation_License) and [CC BY-SA 4.0 Deed](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
 [^pickup]: Device to create an electrical signal of a played guitar for amplification over loudspeakers. ([Wikipedia link](https://en.m.wikipedia.org/wiki/Pickup_(music_technology)))
