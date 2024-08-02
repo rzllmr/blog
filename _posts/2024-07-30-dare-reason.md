@@ -34,7 +34,7 @@ All right, all right, all those fine words aside about what I wish for, let's ge
 
 ![img](/blog/img/in-post/screenshot-dare_130.png)
 
-If you want to try it yourself, just follow this [link](https://rzllmr.itch.io/dare). But as of now it is nothing more than a technical prototype without much content. This will change, though, and I'll keep you posted about every milestone here in this blog.
+If you want to try it yourself, just follow this [link](https://rzllmr.itch.io/dare?secret=gFj7wP9OrYGagYdTBiSD2zde3t0). But as of now it is nothing more than a technical prototype without much content. This will change, though, and I'll keep you posted about every milestone here in this blog.
 
 See you then! :wink:
 
